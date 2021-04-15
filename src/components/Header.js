@@ -9,24 +9,26 @@ function Header() {
     return (
         <div>
             <Container>
-                <Row className="navbar-all">
-                    <Col>
-                        <img className="logo" src={logo} alt=""/>
-                    </Col>
-                    <Col className="my-nav">
-                        <div>
-                            About Us
-                        </div>
-                        <div>
-                            Sercices
-                        </div>
-                        <div>
-                            Products
-                        </div>
-                        <div>
-                            <Telephone className="telephone-icon" />
-                           <span className="telephone-number">+234 703 229 3770</span> 
-                        </div>
+                <Row>
+                    <Col className="navbar-all">
+                        <Col>
+                            <img className="logo" src={logo} alt=""/>
+                        </Col>
+                        <Col className="my-nav">
+                            <div>
+                                About Us
+                            </div>
+                            <div>
+                                Sercices
+                            </div>
+                            <div>
+                                Products
+                            </div>
+                            <div>
+                                <Telephone className="telephone-icon" />
+                            <span className="telephone-number">+234 703 229 3770</span> 
+                            </div>
+                        </Col>
                     </Col>
                 </Row>
             </Container>

@@ -6,6 +6,9 @@
 
 .navbar-all{
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo{
@@ -34,4 +37,25 @@
   color: #358EAE;
   font-style: normal;
   font-weight: normal;
+}
+
+@media (max-width: 991px) {
+  .telephone-icon{
+    display: none;
+  }
+  .telephone-number{
+    display: none;
+  }
+}
+
+@media (max-width: 793px) {
+  .logo {
+    width: 80%;
+    height: 80%;
+  }
+  .navbar-all{
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
 }
