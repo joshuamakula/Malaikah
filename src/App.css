@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.navbar-all{
+  margin-top: 20px;
+}
+
 .logo{
   width: 359px;
   height: 118px;
@@ -16,4 +20,18 @@
 
   font-weight: 500;
   font-size: 18px;
+}
+
+.telephone-icon {
+  width: 22px;
+  height: 22px;
+  color: #B5BA3A;
+  margin-right: 5px;
+}
+
+.telephone-number{
+  font-size: 18px;
+  color: #358EAE;
+  font-style: normal;
+  font-weight: normal;
 }

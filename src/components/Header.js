@@ -1,13 +1,15 @@
 import React from "react";
 import '../App.css';
 import { Col, Container, Row } from "react-bootstrap";
-import logo from '../images/logo.png'
+import logo from '../images/logo.png';
+import phone from '../images/phone.svg';
+import {Telephone} from "react-bootstrap-icons";
 
 function Header() {
     return (
         <div>
             <Container>
-                <Row>
+                <Row className="navbar-all">
                     <Col>
                         <img className="logo" src={logo} alt=""/>
                     </Col>
@@ -22,7 +24,8 @@ function Header() {
                             Products
                         </div>
                         <div>
-                            +234 703 229 3770
+                            <Telephone className="telephone-icon" />
+                           <span className="telephone-number">+234 703 229 3770</span> 
                         </div>
                     </Col>
                 </Row>
