@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+.web-header{
+  height: 100vh;
+  background: linear-gradient(71.34deg, #7BD3FF 0%, rgba(196, 235, 255, 0) 99.63%);
+
+}
+
 .navbar-all{
   margin-top: 20px;
   display: flex;
@@ -16,11 +22,9 @@
   height: 118px;
 }
 
-.my-nav{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-
+.navbar-light .navbar-nav .nav-link {
+  color: #0C5876 !important;
+  font-style: normal;
   font-weight: 500;
   font-size: 18px;
 }
@@ -32,9 +36,9 @@
   margin-right: 5px;
 }
 
-.telephone-number{
+a{
   font-size: 18px;
-  color: #358EAE;
+  color: #358EAE !important;
   font-style: normal;
   font-weight: normal;
 }
@@ -45,4 +49,16 @@
     width: 136px;
     height: 50%;
   }
+}
+
+.nurse{
+  margin-left: 100px;
+}
+
+
+.slide-title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #0C5876;
 }

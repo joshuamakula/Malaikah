@@ -1,55 +1,31 @@
 import React from "react";
 import '../App.css';
-import { Col, Container, Row, Navbar, Nav, NavDropdown, Form, FormControl, Button } from "react-bootstrap";
+import { Col, Container, Row, Navbar, Nav, NavDropdown, Form, FormControl, Button, Carousel } from "react-bootstrap";
 import logo from '../images/logo.png';
+import nurse from '../images/nurse.png';
 import phone from '../images/phone.svg';
-import {Telephone} from "react-bootstrap-icons";
+import { Telephone } from "react-bootstrap-icons";
+import NavMenu from "./NavMenu";
+
 
 function Header() {
     return (
-        <Container>
-            <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="#home"><img className="logo" src={logo} alt=""/></Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
-                                    
-                    </Nav>
-                    <Nav>
-                        <Nav.Link href="#!">About Us</Nav.Link>
-                        <Nav.Link href="#!">Services</Nav.Link>               
-                        <Nav.Link href="#!">Products</Nav.Link>              
-                        <Nav.Link href="#!"><Telephone className="telephone-icon" /><a href="tel:+2347032293770">+234 703 229 3770</a></Nav.Link>   
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
+        <Container fluid className="web-header">
+            <NavMenu />
+            <Container>
+                <Row>
+                    <Col className="align-items-end">
+                        <img src={nurse} className="nurse" alt="" align-bottom/>
+                    </Col>
+                    <Col className="header-right">
+                        <h1 className="slide-title">Skilled Health Specialists With Local Experience When You Need It</h1>
+                        <p>Malaikah Specialist Center aim is to provide you with quality, accessible and affordable health care services & health education.</p>
+
+                    </Col>
+                </Row>
+            </Container>
         </Container>
-        // <div>
-        //     <Container>
-        //         <Row>
-        //             <Col className="navbar-all">
-        //                 <Col>
-        //                     <img className="logo" src={logo} alt=""/>
-        //                 </Col>
-        //                 <Col className="my-nav">
-        //                     <div>
-        //                         About Us
-        //                     </div>
-        //                     <div>
-        //                         Sercices
-        //                     </div>
-        //                     <div>
-        //                         Products
-        //                     </div>
-        //                     <div>
-        //                         <Telephone className="telephone-icon" />
-        //                     <span className="telephone-number">+234 703 229 3770</span> 
-        //                     </div>
-        //                 </Col>
-        //             </Col>
-        //         </Row>
-        //     </Container>
-        // </div>
+        
     );
 }
 export default Header;                
