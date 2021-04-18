@@ -43,22 +43,62 @@ a{
   font-weight: normal;
 }
 
+.nurse{
+  margin-left: 100px;
+}
+
+.header-right{
+  text-align: right;
+}
+
+.slide-title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  color: #0C5876;
+  
+}
+
+.carousel-caption {
+  max-width: 598px;
+  text-align: right !important;
+  color: #0C5876 !important;
+  right: 0% !important;
+  left: auto !important;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1{
+    font-weight: bold;
+    font-style: normal;
+}
+.carousel-caption p{
+  color: #000000;
+}
+
+.btn-primary {
+  background-color: #358EAE !important;
+  border-color: #358EAE !important;
+  border-radius: 5px !important;
+}
+
+
+
+
 
 @media (max-width: 793px) {
   .logo {
     width: 136px;
     height: 50%;
   }
-}
-
-.nurse{
-  margin-left: 100px;
-}
-
-
-.slide-title{
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  color: #0C5876;
+  .carousel-item img{
+    height: 86.9vh;
+    width: 100vw;
+  }
+  .carousel-caption{
+    text-align: center !important;
+  }
+  .carousel-caption h1{
+    font-size: 30px;
+  }
 }

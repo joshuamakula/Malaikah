@@ -12,17 +12,37 @@ function Header() {
     return (
         <Container fluid className="web-header">
             <NavMenu />
-            <Container>
+            {/* <Container>
                 <Row>
                     <Col className="align-items-end">
                         <img src={nurse} className="nurse" alt="" align-bottom/>
                     </Col>
                     <Col className="header-right">
                         <h1 className="slide-title">Skilled Health Specialists With Local Experience When You Need It</h1>
-                        <p>Malaikah Specialist Center aim is to provide you with quality, accessible and affordable health care services & health education.</p>
-
+                        <p className="slide-text">Malaikah Specialist Center aim is to provide you with quality, accessible and affordable health care services & health education.</p>
+                        <Button variant="primary" size="lg">
+                            Make Appointment
+                        </Button>{' '}
                     </Col>
                 </Row>
+            </Container> */}
+            <Container>
+                <Carousel>
+                    <Carousel.Item>
+                        <img
+                        className=""
+                        src={nurse}
+                        alt="First slide"
+                        />
+                        <Carousel.Caption>
+                            <h1>Skilled Health Specialists With Local Experience When You Need It</h1>
+                            <p>Malaikah Specialist Center aim is to provide you with quality, accessible and affordable health care services & health education. </p>
+                        <Button variant="primary" size="lg">
+                            Make Appointment
+                        </Button>{' '}
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
             </Container>
         </Container>
         
