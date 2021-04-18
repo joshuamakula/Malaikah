@@ -11,6 +11,10 @@
   
 }
 
+.navbar{
+  padding: 0 !important;
+}
+
 .navbar-all{
   margin-top: 20px;
   display: flex;
@@ -86,6 +90,15 @@ a{
   border-radius: 5px !important;
 }
 
+.container-fluid, .horizontal-line {
+  position: absolute;
+  padding: 0 !important;
+}
+
+hr{
+  border: 1px solid #358EAE !important;
+}
+
 
 @media (max-width: 793px) {
   .logo {
@@ -107,3 +120,16 @@ a{
     font-size: 30px;
   }
 }
+
+/* About us section */
+
+/* .about-us{
+  height: 100vh;
+}
+
+.section-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #358EAE;
+} */
