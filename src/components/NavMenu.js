@@ -1,7 +1,6 @@
 import React from 'react';
-import { Col, Container, Row, Navbar, Nav, NavDropdown, Form, FormControl, Button } from "react-bootstrap";
+import { Container, Navbar, Nav } from "react-bootstrap";
 import logo from '../images/logo.png';
-import phone from '../images/phone.svg';
 import { Telephone } from "react-bootstrap-icons";
 
 function NavMenu() {

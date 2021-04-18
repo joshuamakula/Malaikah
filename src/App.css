@@ -7,7 +7,8 @@
 .web-header{
   height: 100vh;
   background: linear-gradient(71.34deg, #7BD3FF 0%, rgba(196, 235, 255, 0) 99.63%);
-
+  position: relative;
+  
 }
 
 .navbar-all{
@@ -51,12 +52,9 @@ a{
   text-align: right;
 }
 
-.slide-title{
-  font-style: normal;
-  font-weight: bold;
-  font-size: 38px;
-  color: #0C5876;
-  
+.slider{
+  position: absolute;
+  bottom: 0;
 }
 
 .carousel-caption {
@@ -67,6 +65,12 @@ a{
   left: auto !important;
   top: 50%;
   transform: translateY(-50%);
+}
+.carousel-item {
+  vertical-align: bottom;
+  line-height:1.5em;
+  margin: 0 auto;
+  float: none;
 }
 .carousel-caption h1{
     font-weight: bold;
@@ -83,9 +87,6 @@ a{
 }
 
 
-
-
-
 @media (max-width: 793px) {
   .logo {
     width: 136px;
@@ -94,9 +95,13 @@ a{
   .carousel-item img{
     height: 86.9vh;
     width: 100vw;
+    top: auto !important;
+    bottom: 0 !important;
   }
   .carousel-caption{
     text-align: center !important;
+    top: 50% !important;
+    /* bottom: 0 !important; */
   }
   .carousel-caption h1{
     font-size: 30px;
