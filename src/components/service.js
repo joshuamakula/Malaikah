@@ -12,7 +12,8 @@ import eye from "../images/eye.png";
 function Services() {
     return (
         <Container>
-                <h1 className="section-title"><a name="services">SERVICES</a></h1>
+                <h1 className="section-title service"><a name="services">SERVICES</a></h1>
+                <h1 className="service-title">High Quality Services For You</h1>
             <Row className="our-services">
                 <Col sm={12} md={6} lg={3}>
                     <CardDeck>

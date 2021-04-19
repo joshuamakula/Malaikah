@@ -114,12 +114,13 @@ hr{
   font-weight: bold;
   font-size: 18px;
   color: #358EAE;
-  padding-bottom: 10%;
+  /* padding-bottom: 4%; */
 }
 
 .about-image{
   width: 578px;
   height: 493px;
+
 }
 
 /* Service Section */
@@ -127,6 +128,22 @@ hr{
 .our-services{
   height: 100vh;
   background: radial-gradient(50% 50% at 50% 50%, rgba(53, 142, 174, 0.5) 0%, rgba(53, 142, 174, 0) 100%);
+}
+
+.service{
+  text-align: center;
+}
+
+.service-title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  /* line-height: 56px; */
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #0C5876;
 }
 
 .card-img-top{
