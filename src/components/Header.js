@@ -9,12 +9,11 @@ import About from "./About";
 
 function Header() {
     return (
-        <Container fluid className="web-header">
+        <section className="web-header">
             <NavMenu />
             <HorizontalLine />
             <Slider />
-        </Container>
-        
+        </section>
     );
 }
 export default Header;                
