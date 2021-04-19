@@ -129,6 +129,29 @@ hr{
   background: radial-gradient(50% 50% at 50% 50%, rgba(53, 142, 174, 0.5) 0%, rgba(53, 142, 174, 0) 100%);
 }
 
+.card-img-top{
+  width: 253px !important;
+  height: 173px !important;
+}
+
+.card-title{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #0C5876;
+  padding-left: 8px !important;
+}
+
+.card-text{
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #358EAE;
+  padding-left: 8px !important;
+  
+}
+
 @media (max-width: 600px) {
   .logo {
     width: 136px;
