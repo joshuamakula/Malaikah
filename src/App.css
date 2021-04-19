@@ -122,7 +122,7 @@ hr{
   height: 493px;
 }
 
-@media (max-width: 793px) {
+@media (max-width: 600px) {
   .logo {
     width: 136px;
     height: 50%;

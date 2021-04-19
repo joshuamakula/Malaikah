@@ -6,12 +6,12 @@ function About() {
     return (
         <Container>
             <Row className="about-us">
-                <Col sm={12} md={5}>
+                <Col md={12} lg={5}>
                     <h1 className="section-title">ABOUT US</h1>
                     <p>Malaikah Specialist Center aim is to provide you with quality, accessible and affordable health care services & health education. Our specialized clinical services include : gynecology, pediatrics and Non-communicable Diseases.</p>
                     <p>Malaikah Specialist Center aim is to provide you with quality, accessible and affordable health care services & health education. Our specialized clinical services include : gynecology, pediatrics and Non-communicable Diseases.</p>
                 </Col>
-                <Col sm={12} md={7}>
+                <Col md={12} lg={7}>
                     <img src={about} className="about-image" alt="About us in picture"/>
                 </Col>
             </Row>
