@@ -122,6 +122,13 @@ hr{
   height: 493px;
 }
 
+/* Service Section */
+
+.our-services{
+  height: 100vh;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(53, 142, 174, 0.5) 0%, rgba(53, 142, 174, 0) 100%);
+}
+
 @media (max-width: 600px) {
   .logo {
     width: 136px;
