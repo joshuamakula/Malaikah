@@ -8,7 +8,9 @@
   height: 100vh;
   background: linear-gradient(71.34deg, #7BD3FF 0%, rgba(196, 235, 255, 0) 99.63%);
   position: relative;
-  
+  scroll-behavior: smooth;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
 }
 
 .navbar{
@@ -93,6 +95,9 @@ a{
 .container-fluid, .horizontal-line {
   position: absolute;
   padding: 0 !important;
+  scroll-behavior: smooth;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
 }
 
 hr{
@@ -107,6 +112,7 @@ hr{
 .about-us{
   height: 100vh;
   padding-top: 10%;
+  scroll-snap-align: start;
 }
 
 .section-title {
