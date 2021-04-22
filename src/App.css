@@ -172,7 +172,26 @@ hr{
   font-size: 14px;
   color: #358EAE;
   padding-left: 8px !important;
-  
+}
+
+/* Appointment section */
+
+.appointment-fluid{
+  background: #F3FBFF;
+}
+
+.appointment-h1{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #0C5876;
+}
+
+.appointment-p{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #C4C4C4;
 }
 
 @media (max-width: 600px) {
