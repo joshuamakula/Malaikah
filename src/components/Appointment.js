@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Form, Row, Button } from 'react-bootstrap';
 
-function Appointment(params) {
+function Appointment() {
     return (
         <Container fluid className="appointment-fluid">
             <Container className="appointment-cont">

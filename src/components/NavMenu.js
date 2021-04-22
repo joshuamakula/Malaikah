@@ -16,7 +16,7 @@ function NavMenu() {
                     <Nav className="text-dark">
                         <Nav.Link href="#about">About Us</Nav.Link>
                         <Nav.Link href="#services">Services</Nav.Link>               
-                        <Nav.Link href="#!">Products</Nav.Link>              
+                        <Nav.Link href="#appointment">Appointment</Nav.Link>              
                         <Nav.Link href="#!" className="telephone-number"><Telephone className="telephone-icon" /><a href="tel:+2347032293770">+234 703 229 3770</a></Nav.Link>   
                     </Nav>
                 </Navbar.Collapse>
