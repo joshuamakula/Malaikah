@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Form, Row, Button } from 'react-bootstrap';
 
 function Appointment(params) {
     return (
@@ -12,13 +12,29 @@ function Appointment(params) {
                         <p className="appointment-p">It is a long established fact that our medical professional attend to your needs</p>
                     </Col>
                     <Col>
-                        <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
-                        </div>
-                        <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <div className="appointment-form">
+                            <Form>
+                                <div class="mb-3">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" required/>
+                                </div>
+                                <div class="mb-3">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Phone" required/>
+                                </div>
+                                <div class="mb-3">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email" required/>
+                                </div>
+                                <div class="mb-3">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject" required/>
+                                </div>
+                                <div class="mb-3">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Describe your problem"></textarea>
+                                </div>
+                                <div class="mb-3">
+                                <Button variant="primary" size="lg">
+                                    More About
+                                </Button>{' '}
+                                </div>
+                            </Form>
                         </div>
                     </Col>
                 </Row>
