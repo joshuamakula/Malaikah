@@ -4,9 +4,9 @@ import { Col, Container, Form, Row, Button } from 'react-bootstrap';
 function Appointment(params) {
     return (
         <Container fluid className="appointment-fluid">
-            <Container>
+            <Container className="appointment-cont">
                 <h1 className="section-title service"><a name="appointment">APPOINTMENT</a></h1>
-                <Row>
+                <Row className="row-cointainer">
                     <Col>
                         <h1 className="appointment-h1">Make an Appointment To Talk To Our Specialists</h1>
                         <p className="appointment-p">It is a long established fact that our medical professional attend to your needs</p>

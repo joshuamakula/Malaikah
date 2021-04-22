@@ -177,7 +177,21 @@ hr{
 /* Appointment section */
 
 .appointment-fluid{
+  height: 100vh;
   background: #F3FBFF;
+}
+
+.appointment-cont{
+  padding-top: 3%;
+}
+
+.row-cointainer{
+  /* height: 100vh; */
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7%;
 }
 
 .appointment-h1{
