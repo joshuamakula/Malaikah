@@ -4,11 +4,27 @@
   box-sizing: border-box;
 }
 
+.parent{
+  overflow: scroll;
+  height: 100vh;
+  /* scroll-snap-type: mandatory; */
+  scroll-snap-points-y: repeat(100vh);
+  scroll-behavior: smooth;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.section {
+  height: 100vh;
+  scroll-snap-align: start;
+  
+}
+
 .web-header{
   height: 100vh;
   background: linear-gradient(71.34deg, #7BD3FF 0%, rgba(196, 235, 255, 0) 99.63%);
   position: relative;
-  
+  scroll-snap-align: start;
 }
 
 .navbar{
@@ -93,6 +109,9 @@ a{
 .container-fluid, .horizontal-line {
   position: absolute;
   padding: 0 !important;
+  scroll-behavior: smooth;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
 }
 
 hr{
@@ -107,6 +126,7 @@ hr{
 .about-us{
   height: 100vh;
   padding-top: 10%;
+  scroll-snap-align: start;
 }
 
 .section-title {
@@ -114,12 +134,12 @@ hr{
   font-weight: bold;
   font-size: 18px;
   color: #358EAE;
-  padding-bottom: 10%;
 }
 
 .about-image{
   width: 578px;
   height: 493px;
+
 }
 
 /* Service Section */
@@ -128,6 +148,130 @@ hr{
   height: 100vh;
   background: radial-gradient(50% 50% at 50% 50%, rgba(53, 142, 174, 0.5) 0%, rgba(53, 142, 174, 0) 100%);
 }
+
+.service{
+  text-align: center;
+  scroll-snap-align: start;
+}
+
+.service-title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  /* line-height: 56px; */
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #0C5876;
+}
+
+.card-img-top{
+  width: 253px !important;
+  height: 173px !important;
+}
+
+.card-title{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #0C5876;
+  padding-left: 8px !important;
+}
+
+.card-text{
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #358EAE;
+  padding-left: 8px !important;
+}
+
+/* Appointment section */
+
+.appointment-fluid{
+  height: 100vh;
+  background: #F3FBFF;
+  scroll-snap-align: start;
+}
+
+.appointment-cont{
+  padding-top: 3%;
+}
+
+.row-cointainer{
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7%;
+}
+
+.appointment-h1{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #0C5876;
+}
+
+.appointment-p{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #C4C4C4;
+}
+
+.appointment-form {
+  padding: 10%;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+/* Footer Styles */
+
+.footer{
+  background: #0C5876;
+}
+
+.container-fluid{
+  position: relative !important;
+  scroll-snap-align: start;
+}
+
+copy{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer-logo{
+  width: 359px;
+  height: 96px;
+
+}
+
+.footer-text-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-style: normal;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+.footer-copy{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+
+  color: #FFFFFF;
+}
+
 
 @media (max-width: 600px) {
   .logo {

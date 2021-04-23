@@ -1,16 +1,20 @@
 import React from 'react';
 import './App.css'
 import About from './components/About';
+import Appointment from './components/Appointment';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Services from './components/service';
 
 function App() {
   
   return(
-    <div>
-      <Header />
-      <About />
-      <Services />
+    <div className="parent">
+      <Header className="section" />
+      <About className="section" />
+      <Services className="section" />
+      <Appointment className="section" />
+      <Footer />
     </div>
   )
 }
