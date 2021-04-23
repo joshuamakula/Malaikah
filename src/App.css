@@ -4,13 +4,27 @@
   box-sizing: border-box;
 }
 
+.parent{
+  overflow: scroll;
+  height: 100vh;
+  /* scroll-snap-type: mandatory; */
+  scroll-snap-points-y: repeat(100vh);
+  scroll-behavior: smooth;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.section {
+  height: 100vh;
+  scroll-snap-align: start;
+  
+}
+
 .web-header{
   height: 100vh;
   background: linear-gradient(71.34deg, #7BD3FF 0%, rgba(196, 235, 255, 0) 99.63%);
   position: relative;
-  scroll-behavior: smooth;
-  overflow: auto;
-  scroll-snap-type: y mandatory;
+  scroll-snap-align: start;
 }
 
 .navbar{
@@ -120,7 +134,6 @@ hr{
   font-weight: bold;
   font-size: 18px;
   color: #358EAE;
-  /* padding-bottom: 4%; */
 }
 
 .about-image{
@@ -138,6 +151,7 @@ hr{
 
 .service{
   text-align: center;
+  scroll-snap-align: start;
 }
 
 .service-title{
@@ -179,6 +193,7 @@ hr{
 .appointment-fluid{
   height: 100vh;
   background: #F3FBFF;
+  scroll-snap-align: start;
 }
 
 .appointment-cont{
@@ -222,6 +237,7 @@ hr{
 
 .container-fluid{
   position: relative !important;
+  scroll-snap-align: start;
 }
 
 copy{

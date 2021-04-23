@@ -9,11 +9,11 @@ import Services from './components/service';
 function App() {
   
   return(
-    <div>
-      <Header />
-      <About />
-      <Services />
-      <Appointment />
+    <div className="parent">
+      <Header className="section" />
+      <About className="section" />
+      <Services className="section" />
+      <Appointment className="section" />
       <Footer />
     </div>
   )

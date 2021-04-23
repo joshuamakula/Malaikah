@@ -5,7 +5,7 @@ import { Telephone } from "react-bootstrap-icons";
 
 function NavMenu() {
     return(
-        <Container>
+        <Container className="my-nav">
             <Navbar bg="transparent" expand="lg">
                 <Navbar.Brand href="#home"><img className="logo" src={logo} alt=""/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
