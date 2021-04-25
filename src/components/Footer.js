@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { Facebook, Twitter, Youtube } from 'react-bootstrap-icons';
+import { Facebook, Twitter, Whatsapp, Youtube } from 'react-bootstrap-icons';
 import logo from "../images/logo.png"
 
 function Footer() {
@@ -21,10 +21,10 @@ function Footer() {
                 </Row>
                 <Row>
                     <Col className="footer-copy">
-                        <p> © 2021 Copyright. All rightes reserved.</p>
+                        <p className="copyright"> © 2021 Copyright. All rightes reserved.</p>
                         <p>
                             <Facebook /> &nbsp;
-                            <Twitter /> &nbsp;
+                            <Whatsapp /> &nbsp;
                             <Youtube /> &nbsp;
                         </p>
                     </Col>

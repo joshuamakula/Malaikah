@@ -13,7 +13,7 @@ function Appointment() {
                     </Col>
                     <Col>
                         <div className="appointment-form">
-                            <Form>
+                            <Form id="appointment-form" action="appointment-form-handler.php" method="post">
                                 <div class="mb-3">
                                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" required/>
                                 </div>
