@@ -15,23 +15,23 @@ function Appointment() {
                         <div className="appointment-form">
                             <Form id="appointment-form" action="appointment-form-handler.php" method="post">
                                 <div class="mb-3">
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" required/>
+                                <input type="text" class="form-control" name="name" placeholder="Your Name" required/>
                                 </div>
                                 <div class="mb-3">
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Phone" required/>
+                                <input type="text" class="form-control" name="phone" placeholder="Your Phone" required/>
                                 </div>
                                 <div class="mb-3">
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email" required/>
+                                <input type="email" class="form-control" name="email" placeholder="Your Email" required/>
                                 </div>
                                 <div class="mb-3">
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject" required/>
+                                <input type="text" class="form-control" name="subject" placeholder="Subject" required/>
                                 </div>
                                 <div class="mb-3">
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Describe your problem"></textarea>
+                                <textarea class="form-control" name="problem" rows="3" placeholder="Describe your problem"></textarea>
                                 </div>
                                 <div class="mb-3">
-                                <Button variant="primary" size="lg">
-                                    More About
+                                <Button type="submit" variant="primary" size="lg" block>
+                                    Book Appointment
                                 </Button>{' '}
                                 </div>
                             </Form>

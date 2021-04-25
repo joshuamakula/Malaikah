@@ -8,7 +8,7 @@ function NavMenu() {
         <Container className="nav-bar" fluid>
         <Container className="my-nav">
             <Navbar bg="transparent" expand="lg">
-                <Navbar.Brand href="#home"><img className="logo" src={logo} alt=""/></Navbar.Brand>
+                <Navbar.Brand href="/"><img className="logo" src={logo} alt=""/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
