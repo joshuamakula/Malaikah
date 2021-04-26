@@ -1,7 +1,21 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 import { Col, Container, Form, Row, Button } from 'react-bootstrap';
 
 function Appointment() {
+
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm('service_kcq0799', 'template_send', e.target, 'user_7nYZO28qDtGCapesqcQii')
+            .then((result) => {
+                console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+            });
+        e.target.reset();
+    }
+
     return (
         <Container fluid className="appointment-fluid">
             <Container className="appointment-cont">
@@ -13,7 +27,7 @@ function Appointment() {
                     </Col>
                     <Col>
                         <div className="appointment-form">
-                            <Form id="appointment-form" action="appointment-form-handler.php" method="post">
+                            <Form onSubmit={sendEmail}>
                                 <div class="mb-3">
                                 <input type="text" class="form-control" name="name" placeholder="Your Name" required/>
                                 </div>
