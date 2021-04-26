@@ -4,15 +4,19 @@ import About from './components/About';
 import Appointment from './components/Appointment';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Top from './components/Top';
 import Services from './components/service';
+import Products from './components/Products';
 
 function App() {
   
   return(
     <div className="parent">
+      <Top />
       <Header className="section" />
       <About className="section" />
       <Services className="section" />
+      <Products className="section" />
       <Appointment className="section" />
       <Footer />
     </div>

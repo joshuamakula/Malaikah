@@ -27,6 +27,12 @@
   scroll-snap-align: start;
 }
 
+.nav-bar{
+  box-shadow: 0px 4px 4px 4px rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.25);
+  /* border: 2px solid rgba(255, 255, 255, 0.5); */
+}
+
 .navbar{
   padding: 0 !important;
 }
@@ -118,9 +124,6 @@ hr{
   border: 1px solid #358EAE !important;
 }
 
-
-
-
 /* About us section */
 
 .about-us{
@@ -134,6 +137,12 @@ hr{
   font-weight: bold;
   font-size: 18px;
   color: #358EAE;
+  text-transform: uppercase;
+}
+
+.about-text{
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .about-image{
@@ -158,8 +167,6 @@ hr{
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
-  /* line-height: 56px; */
-  /* identical to box height */
 
   text-align: center;
 
@@ -186,6 +193,36 @@ hr{
   font-size: 14px;
   color: #358EAE;
   padding-left: 8px !important;
+}
+
+/* Products section */
+
+.product-fluid{
+  
+}
+
+.products{
+  height: 100vh;
+  padding-top: 6%;
+  scroll-snap-align: start;
+}
+
+.product-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  padding-top: 6%;
+}
+
+
+.product-title .product-text {
+  padding-left: 38px !important;
+}
+
+.product-img {
+  width: 200px !important;
+  height: 180px !important;
 }
 
 /* Appointment section */
@@ -267,9 +304,13 @@ copy{
 
   font-style: normal;
   font-weight: normal;
-  font-size: 11px;
+  font-size: 20px;
 
   color: #FFFFFF;
+}
+
+.copyright{
+  font-size: 13px;
 }
 
 
