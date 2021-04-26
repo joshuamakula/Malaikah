@@ -148,7 +148,11 @@ hr{
 .about-image{
   width: 578px;
   height: 493px;
+}
 
+.pop-up{
+  background: #358EAE !important;
+  color: #FFFFFF !important;
 }
 
 /* Service Section */

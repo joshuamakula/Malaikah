@@ -15,9 +15,12 @@ function Slider () {
                         <Carousel.Caption>
                             <h1>Skilled Health Specialists With Local Experience When You Need It</h1>
                             <p>Malaikah Specialist Center aim is to provide you with quality, accessible and affordable health care services & health education. </p>
-                        <Button variant="primary" size="lg">
-                                Make Appointment
-                        </Button>{' '}
+                        <a href="#appointment">
+                            <Button variant="primary" size="lg">
+                                    Make Appointment
+                            </Button>{' '}
+                        </a>
+                        
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
