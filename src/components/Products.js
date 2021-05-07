@@ -10,7 +10,7 @@ function Products() {
             <Container className="products">
                 <h1 className="section-title service"><a name="products">Products</a></h1>
                 <Row className="product-row">
-                    <Col>
+                    <Col className="myIframe" md={6} sm={12}>
                         <Iframe url="https://www.youtube.com/embed/7u2gc-yeAkw"
                             width="450px"
                             height="400px"
@@ -19,7 +19,7 @@ function Products() {
                             display="initial"
                             position="relative"/>
                     </Col>
-                    <Col className="product-list">
+                    <Col className="product-list"  md={6} sm={12}>
                         
                         <div class="card mb-3">
                             <div class="row g-0">
